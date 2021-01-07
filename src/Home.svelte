@@ -1,6 +1,10 @@
 <div class="out-box">
     <div>
         <span class="title">who is the spy!</span>
+        <div>
+            <input placeholder="输入房间编号" />
+            <button>创建房间</button>
+        </div>
         <p>这里将是一系列的规则介绍</p>
         <ul>
             <li>规则一</li>

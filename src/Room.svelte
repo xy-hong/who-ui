@@ -9,29 +9,30 @@
     ]
 </script>
 
-<div id="chart-container">
+<div id="main-box">
+    <div id="chart-box">
+        {#each records as record}
+        <div>{record.time} {record.nick}: {record.message}</div>
+        {/each}
+    </div>
     <div>
-        <div id="chart-box">
-            {#each records as record}
-            <div>{record.time} {record.nick}: {record.message}</div>
-            {/each}
-        </div>
-        <div>
-            <input />
-            <button>SEND</button>
-        </div>
+        <textarea />
     </div>
 </div>
 
 <style>
-    #chart-container {
-        display: flex;
-        justify-content: center;
+    #main-box {
+        max-width: 600px;
+        margin: 0 auto;
     }
 
     #chart-box {
-        background-color: whitesmoke;
-        border: 1px solid gray;
+        width: 100%;
+        background-color: #20201d;
+        color: #a6a28c;
+        border: 1px solid #4f4d42;
     }
+
+    
 </style>
 

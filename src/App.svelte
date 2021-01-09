@@ -17,7 +17,7 @@
 <style>
 	:global(body) {
 		box-sizing: border-box;
-		background-color: #20201d;
+		background-color: #212121;
 		color: #a6a28c;
 		margin: 0;
 		padding: 0;
